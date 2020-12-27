@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T14:37:16.828Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="D-ye8Cn8kPvpJ0HG4oBn" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T14:43:53.101Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="1vD2TVve40foKyG-rADf" version="14.1.2" type="github">
   <diagram id="u7P9gTa-uS5qmwB9hr_K" name="Page-1">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxRectangle x="550" y="501" width="90" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PTjb4T5VlLowp-uNTDuH-2" value="-name:String&#xa;-custId:Long&#xa;-birthDate: LocalDate&#xa;-accounts:List&lt;Account&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PTjb4T5VlLowp-uNTDuH-1">
+        <mxCell id="PTjb4T5VlLowp-uNTDuH-2" value="-name:String&#xa;-custId:Long&#xa;-birthDate: LocalDate&#xa;-accounts:Account[5]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PTjb4T5VlLowp-uNTDuH-1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="PTjb4T5VlLowp-uNTDuH-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PTjb4T5VlLowp-uNTDuH-1">
@@ -148,7 +148,7 @@
           <mxGeometry x="1500" y="487.5" width="140" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="PTjb4T5VlLowp-uNTDuH-97" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TransactionOperator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ withdralAccount(Transaction): void&lt;br&gt;+ depositAccount(Transaction): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ transferAccount(Transaction): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ useCard(Transaction): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="290" width="250" height="149" as="geometry" />
+          <mxGeometry x="850" y="290" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="PTjb4T5VlLowp-uNTDuH-101" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PTjb4T5VlLowp-uNTDuH-34" target="PTjb4T5VlLowp-uNTDuH-97">
           <mxGeometry width="160" relative="1" as="geometry">
